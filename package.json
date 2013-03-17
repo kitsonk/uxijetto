@@ -1,33 +1,29 @@
 {
-	"name": "dojo2-boilerplate-package",
+	"name": "uxijetto",
 	"version": "2.0.0",
 	"main": "./main.js",
-	"description": "A boilerplate for Dojo 2 Packages",
+	"description": "Extra Dijit based widgets for Dojo 2",
 	"readmeFilename": "./README.md",
 	"maintainers": [{
 		"name": "Kitson Kelly",
 		"email": "kitsonk@dojotoolkit.org",
 		"web": "http://dojotoolkit.org/"
-	}, {
-		"name": "Dylan Schiemann",
-		"email": "dylan@dojotoolkit.org",
-		"web": "http://dojotoolkit.org/"
 	}],
 	"licenses": [{
 		"type": "BSD-3-Clause",
-		"url": "https://github.com/kitsonk/dojo2-boilerplate-package/blob/master/LICENSE"
+		"url": "https://github.com/kitsonk/uxijetto/blob/master/LICENSE"
 	}],
-	"bugs": "https://github.com/kitsonk/dojo2-boilerplate-package/issues",
+	"bugs": "https://github.com/kitsonk/uxijetto/issues",
 	"repositories": [{
 		"type": "git",
-		"url": "https://github.com/kitsonk/dojo2-boilerplate-package.git"
+		"url": "https://github.com/kitsonk/uxijetto.git"
 	}],
 	"homepage": "http://dojotoolkit.org/",
 	"dojoBuild": "package.js",
 	"volo": {
-		"baseDir": "./src",
 		"dependencies": {
-			"dojo-core": "github:dojo/core/>2.0"
+			"dojo": "github:dojo/dojo/>1.7",
+			"dijit": "github:dojo/dijit/>1.7"
 		}
 	}
 }
