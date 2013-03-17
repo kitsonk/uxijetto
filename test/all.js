@@ -1,3 +1,3 @@
 define([
-	'./main'
+	'./BusyButton'
 ], 1);
